@@ -4,7 +4,7 @@
 - Matric Number: 2216265 
 
 ## Slider Component
-This is a basic slider component implemented in JavaScript for use in web development projects. The slider allows you to display a list of items in a horizontal sequence, with navigation buttons and dots for easy interaction.
+I have created basic slider component implemented in action.js file. The slider allows you to display a list of items in a horizontal sequence, with navigation buttons and dots for easy interaction.
 
 ## Features
 1. Next/Previous Buttons: Navigate through the items using the "Next" and "Previous" buttons.
