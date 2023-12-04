@@ -1,7 +1,7 @@
 # Individual-Assignment-1
 
-Name: Muhammad Adib Bin Mohamad Tazmi
-Matric Number: 2216265 
+- Name: Muhammad Adib Bin Mohamad Tazmi
+- Matric Number: 2216265 
 
 ## Slider Component
 This is a basic slider component implemented in JavaScript for use in web development projects. The slider allows you to display a list of items in a horizontal sequence, with navigation buttons and dots for easy interaction.
