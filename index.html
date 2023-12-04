@@ -15,21 +15,21 @@
   
   <div class="topnav">
     <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <a href="#about-container">About</a>
+    <a href="#contact-container">Contact</a>
     <a href="#salary-deduction-container" style="float:right">Donate</a>
   </div>
 
-  <div class="card">
+  <div class="card" id="about-container">
     <h2>About</h2>
     <div class="fakeimg" style="height:200px;">Image</div>
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
   </div>
 
-  <div class="card">
+  <div class="card" id="gallery-container">
     <h2>About Me</h2>
-    <div class="fakeimg" style="height:100px;">Image</div>
+    <div class="fakeimg" style="height:300px; width: 300px;">Image</div>
     <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
   </div>
   
@@ -82,18 +82,15 @@
             <label for="amount">Amount to be Deducted</label>
           </div>
           <div class="col-75">
-            RM <input type="number" style="border: none; width: 100px;">
+            <input type="number" >
           </div>
         </div>
       </div>
       <div class="salary-deduct">
-        <p>The above salary deduction will take effect form
-        <input type="text" size="6">(month)
-        <input type="text" size="6">(year) 
-        until
-        <input type="text" size="6">(month)
-        <input type="text" size="6">(year) 
-        or further notice. 
+        <label>From</label>
+        <input type="date" size="6">
+        <label>Until</label>
+        <input type="date" size="6">
         </p>
       </div>
       <div class="kulliyyah-container" style="width: 100%;">
@@ -117,26 +114,25 @@
     </div> 
   </div>
 
-  <div class="card">
+  <div class="card" id="contact-container">
     <h2>Contact</h2>
     <div class="contact-footer">
       Tel: 03 6196 4268<br>
       Email: <a href="mailto:ief@iium.edu.my">ief@iium.edu.my</a><br>
       Website: <a href="www.iium.edu.my/ief">www.iium.edu.my/ief</a><br>
-      Facebook: <link href="www.facebook.com/ief.official/">www.facebook.com/ief.official/</link>
+      Facebook: <a href="www.facebook.com/ief">www.facebook.com/ief.official</a>
     </div>
-    <div class="footer-container">
-      <div class="address-footer" style="text-align: center;">
-        IIUM ENDOWMENT FUND <br>
-        Level 3, Rectory <br>
-        International Islamic University Malysia <br>
-        P.O. Box 10 <br>
-        50728 Kuala Lumpur
-      </div>
+    <div class="address-footer">
+      IIUM ENDOWMENT FUND <br>
+      Level 3, Rectory <br>
+      International Islamic University Malysia <br>
+      P.O. Box 10 <br>
+      50728 Kuala Lumpur
     </div>
   </div>
   
   <div class="footer">
+    by Muhammad Adib
   </div>
 
   <script src="action.js"></script>
