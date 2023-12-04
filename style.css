@@ -9,8 +9,7 @@ html {
 body {
   font-family: Arial;
   padding: 5px;
-  background: #f1f1f1;
-
+  background: url(image/adcf97242fcbb1a42f38285a9b0852f7.jpg) center/ cover no-repeat fixed;
 }
 
 .header {
@@ -48,7 +47,11 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.155);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(100px);
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
