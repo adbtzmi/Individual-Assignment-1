@@ -12,3 +12,5 @@ This is a basic slider component implemented in JavaScript for use in web develo
 3. Dots Navigation: Click on the dots to jump to a specific item.
 4. Responsive Design: The slider adjusts to the screen size when the window is resized.
 
+## References
+1. [W3 School](https://www.w3schools.com/)
